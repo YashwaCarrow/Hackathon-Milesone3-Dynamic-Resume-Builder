@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashwa Carrow-Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Resume Builder by Yashwa Carrow</h1>
+
+    <!-- User Input Form -->
+    <form id="resume-form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Objective</legend>
+            <textarea id="objective" placeholder="Enter your main goal" required></textarea><br><br>
+        </fieldset>
+
+        <fieldset id="education-section">
+            <legend>Education</legend>
+            <div class="education-entry">
+                <label for="degree">Degree:</label>
+                <input type="text" class="degree" required><br><br>
+
+                <label for="institute">Institute:</label>
+                <input type="text" class="institute" required><br><br>
+
+                <label for="year">Year of Graduation:</label>
+                <input type="number" class="year" required><br><br>
+            </div>
+            <button type="button" id="add-education">Add Another Degree</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills (separated by commas):</label>
+            <input type="text" id="skills" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <label for="hobbies">Hobbies (separated by commas):</label>
+            <input type="text" id="hobbies" required><br><br>
+        </fieldset>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <!-- Generated Resume Display -->
+    <section id="generated-resume">
+        <h2>Your Resume</h2>
+        <div id="resume-output"></div>
+    </section>
+
+    <footer>
+        Made by Yashwa Carrow
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

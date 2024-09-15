@@ -1,0 +1,147 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a1a;
+    color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    font-size: 48px;
+    color: #00ffcc;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #00ffcc;
+    padding-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 255, 204, 0.7);
+}
+
+fieldset {
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ffcc;
+    padding: 5px 10px;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #00ffcc;
+    background-color: #444;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #00ffcc;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00bfa5;
+    transform: scale(1.05);
+}
+
+/* Resume output styling */
+#generated-resume {
+    margin-top: 50px;
+}
+
+h2 {
+    color: #00ffcc;
+    font-size: 32px;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 10px;
+}
+
+#resume-output {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 204, 0.7);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #444;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #00ffcc;
+}
+
+#add-education {
+    background-color: #00bfa5;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background: linear-gradient(90deg, #0a0a0a, #00ffcc );
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    width: 98%;
+    bottom: 0;
+    left: 0;
+}
+
+/* Responsive footer for mobile screens */
+@media (max-width: 768px) {
+    footer {
+        font-size: 1rem;
+    }
+}
